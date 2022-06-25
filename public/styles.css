@@ -34,6 +34,7 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s linear;
     width: 50vw;
+    position: relative;
 }
 
 .info:hover {
@@ -58,19 +59,21 @@ img {
     position: relative;
 }
 
-/* .quote {
+.quote {
     position: absolute;
     top: 0;
+    bottom: 0;
     left: 0;
+    right: 0;
     width: 2.5rem;
     height: 2.5rem;
     display: grid;
     place-items: center;
     border-radius: 50%;
-    transform: translateY(25%);
-    background: hsl(205, 78%, 60%);
+    /* transform: translateY(25%); */
+    background: #51557E;
     color: #fff;
-} */
+}
 
 .name {
     text-align: center;

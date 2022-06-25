@@ -43,9 +43,9 @@ function Review() {
         <div className="info">
             <div className="container">
                 <img alt="pic" src={image}/>
-                {/* <span className="quote">
+                <span className="quote">
                     <FaQuoteRight />
-                </span> */}
+                </span>
             </div>
             <h4 className="name">{name}</h4>
             <p className="job">{job}</p>
